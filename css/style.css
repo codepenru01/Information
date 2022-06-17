@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.header{
+    width: 1440px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    margin-right: 50px;
+    list-style-type: none;
+}
+.navbar ul li a{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(31, 46, 53, 0.8);
+    text-decoration: none;
+}
+.logo_icon img{
+    margin-right: 24px;
+}
+
+/* ===================================== */
+
+.information{
+    margin-top: 125px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.information_title{
+    width: 545px;
+}
+.information_title h1{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 133.69%;
+    color: #1F2E35;
+}
+.information_title h1 strong{
+    color: red;
+}
+.information_title p{
+    width: 520px;
+    height: 58px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #30444E;
+}
+.information_link{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 32px;
+    width: 161px;
+    height: 53px;
+    background: #EE4248;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    color: #FFFFFF;
+    width: 97px;
+    height: 29px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-decoration: none;
+}
+
+/* ===================================== */
+
+.samsara{
+    margin-top: 190px;
+    background: #F7F7F7;
+    width: 1440px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.samsara_title{
+    margin: 192px;
+    padding: 10px;
+}
+.samsara_title h1{
+    width: 454px;
+    height: 86px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 133.69%;
+    color: #1F2E35;
+}
+.samsara_title p{
+    width: 520px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #30444E;
+}
+.samsara_title h1 strong{
+    color: red;
+}
+
+/* ===================================== */
+
+.card{
+    margin-top: 96px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card .cards h1{
+    height: 37px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 133.69%;
+    color: #EE4248;
+}
+.card .cards p{
+    width: 319px;
+    height: 108px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #30444E;
+}
+
+/* ===================================== */
+
+.contact{
+    margin-top: 110px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1126px;
+    height: 188px;
+}
+.contact_address{
+    display: flex;
+    flex-direction: column;
+}
+.contact_address .contact_svg{
+    width: 259px;
+    height: 21px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #263238;
+}
+.contact_address p{
+    width: 317px;
+    height: 54px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 149.19%;
+    color: #263238;
+}
+.contact_tel p{
+    display: flex;
+    flex-direction: column;
+}
+.contact_tel .contact_logo{
+    width: 85px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #263238;
+}
+.contact_address p{
+    width: 300px;
+    height: 81px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 149.19%;
+    color: #263238;
+}
+.contact_tel p a{
+    width: 269px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 149.19%;
+    color: #263238;
+    text-decoration: none;
+}
+
+/* ===================================== */
+
+.footer{
+    margin-top: 13px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 64px;
+    background: #EE4248;
+}
+.footer p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    width: 382px;
+    height: 21px;    
+}
